@@ -1,0 +1,56 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Joke container */
+#joke {
+  background-color: #ffffff;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  min-height: 80px;
+}
+
+/* Joke text */
+#joke p {
+  color: #333;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+/* Button styling */
+#btn {
+  padding: 12px 25px;
+  background-color: #00796b;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 121, 107, 0.3);
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+#btn:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
